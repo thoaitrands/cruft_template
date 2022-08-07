@@ -1,1 +1,1 @@
-# cruft_template
+# This is repo template
