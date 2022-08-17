@@ -6,11 +6,11 @@ import shutil
 print(os.getcwd())
 
 def remove(filepath):
-    print("filepath = %s", filepath)
+    print("filepath = " + filepath)
     if os.path.isfile(filepath):
         os.remove(filepath)
     elif os.path.isdir(filepath):
         shutil.rmtree(filepath)
 
 if "{{ cookiecutter.enable_windows }}".lower() == "n":
-    remove(os.path.join("{{cookiecutter.directory_name}}", "windows_configs"))
+    remove("windows_configs")
