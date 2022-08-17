@@ -1,3 +1,4 @@
 {
-    "directory_name": "shared"
+    "directory_name": "shared",
+    "enable_windows": "y"
 }
