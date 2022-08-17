@@ -3,7 +3,7 @@ print("THIS IS A HOOKS")
 import os
 import shutil
 
-print(os.getcwd())  # prints /absolute/path/to/{{cookiecutter.project_slug}}
+print(os.getcwd())
 
 def remove(filepath):
     print("filepath = %s", filepath)
